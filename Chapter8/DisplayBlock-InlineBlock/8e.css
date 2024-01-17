@@ -1,0 +1,55 @@
+.description {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+}
+
+input{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #999;
+    background-color: #eee;
+    border: none;
+    padding: 12px;
+    width: 375px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input:focus{
+    color: black;
+}
+
+input:not(.focus){
+    color: black;
+}
+
+.destination{
+    margin-bottom: 40px;
+}
+
+.request{
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 15px 25px;
+    margin-right: 20px;
+    border: none;
+}
+
+.request:hover{
+    background-color: #333;
+}
+
+.schedule{
+    background-color: #eee;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+}
+
+.schedule:hover{
+    background-color: #ccc;
+}

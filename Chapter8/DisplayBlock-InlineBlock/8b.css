@@ -1,0 +1,35 @@
+.paragraph{
+    width: 200px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.yes-button{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.no-button{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.yes-button:hover{
+    background-color: darkgreen;
+}
+
+.no-button:hover{
+    background-color: darkred;
+}
