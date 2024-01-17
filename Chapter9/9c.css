@@ -1,0 +1,45 @@
+.container{
+    border: 1px solid black;
+    width: 300px;
+}
+
+.feedback{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+button{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 5px 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.yes-button{
+    background-color: green;
+    color: white;
+    border: none;
+    transition: background-color 0.5s;
+}
+
+.no-button{
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 0;
+    transition: background-color 0.5s;
+}
+
+.yes-button:hover{
+    background-color: darkgreen;
+}
+
+.no-button:hover{
+    background-color: darkred;
+}
