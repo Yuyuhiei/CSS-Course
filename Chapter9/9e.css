@@ -1,0 +1,46 @@
+.pfp{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.status{
+    border: none;
+    font-family: Arial, sans-serif;
+    color: rgb(100,100,100);
+    font-size: 18px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.status:focus{
+    outline: none;
+}
+
+.tweet{
+    background-color: #1DA1F2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+.tweet:hover{
+    background-color: #1A91DA;
+    transition: background-color 0.2s;
+}
+
+.container{
+    border: 3px solid rgb(230,230,230);
+    width: 375px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
