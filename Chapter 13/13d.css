@@ -1,0 +1,70 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+
+.header{
+    font-size: 14px;
+    color: rgb(120,120,120);
+    margin-bottom: 20px;
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.profile-picture-div{
+    margin-right: 10px;
+}
+
+.profile-picture{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.profile-info{
+    flex: 1;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.company-name{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.time{
+    font-weight: bold;
+    color: rgb(120,120,120);
+}
+
+.advertisement{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.message{
+    color:rgb(120,120,120);
+}
