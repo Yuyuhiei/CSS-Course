@@ -1,0 +1,32 @@
+.grey-block{
+    width: 320px;
+    height: 180px;
+    background-color: grey;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.close-button{
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    z-index: 100;
+    transition: background-color 0.3s;
+}
+
+.close-button:hover{
+    background-color: #333;
+}

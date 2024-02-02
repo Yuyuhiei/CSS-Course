@@ -1,0 +1,28 @@
+body{
+    height: 3000px;
+}
+
+
+.close-button{
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    transition: background-color 0.3s;
+}
+
+.close-button:hover{
+    background-color: #333;
+}

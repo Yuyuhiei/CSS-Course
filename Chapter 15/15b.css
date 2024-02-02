@@ -1,0 +1,13 @@
+body{
+    height: 3000px;
+}
+
+
+.grey-block{
+    width: 320px;
+    height: 180px;
+    background-color: #6a6a6a;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
